@@ -1,0 +1,77 @@
+.menu-container {
+    padding: 16px;
+    background: white;
+    min-height: 100vh;
+    font-family: sans-serif;
+}
+
+.menu-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.menu-icon,
+.cart-icon {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.search-bar {
+    border-radius: 16px;
+    margin-bottom: 16px;
+    background: #f6f6f6;
+}
+
+.menu-tabs .ant-tabs-tab {
+    font-weight: 500;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+}
+
+.card {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    padding: 12px;
+    text-align: center;
+}
+
+.food-img {
+    width: 100%;
+    border-radius: 8px;
+    object-fit: cover;
+    height: 120px;
+    margin-bottom: 8px;
+}
+
+.card-title {
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.card-sub {
+    font-size: 13px;
+    color: #777;
+    margin-bottom: 4px;
+}
+
+.loading {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.empty-message {
+    grid-column: 1 / -1;
+    text-align: center;
+    padding: 40px 0;
+    font-size: 16px;
+    color: #999;
+}

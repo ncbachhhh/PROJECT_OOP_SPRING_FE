@@ -1,0 +1,108 @@
+.dish-detail-container {
+    padding: 16px;
+    background: white;
+    min-height: 100vh;
+    font-family: sans-serif;
+    position: relative;
+}
+
+.back-btn {
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.dish-image {
+    width: 100%;
+    max-height: 280px;
+    object-fit: contain;
+    margin-top: 40px;
+}
+
+.dish-info {
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.rating-time {
+    margin-bottom: 12px;
+    font-size: 14px;
+    color: #888;
+}
+
+.dish-description {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.order-footer {
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.price {
+    font-size: 20px;
+    font-weight: bold;
+    color: orange;
+}
+
+.quantity-control {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.quantity-control button {
+    background: #ff9800;
+    border: none;
+    border-radius: 6px;
+    padding: 6px 10px;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+}
+
+.order-btn {
+    background-color: #3E2C22;
+    color: white;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 12px;
+    font-weight: bold;
+    margin-top: 12px;
+}
+
+.note-section textarea {
+    width: 100%;
+    border-radius: 10px;
+    padding: 12px;
+    border: 1px solid #ddd;
+    margin-top: 8px;
+    font-size: 14px;
+    resize: none;
+}
+
+.order-btn {
+    background-color: #3E2C22;
+    color: white;
+    padding: 14px 32px;
+    border: none;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 16px;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+.order-btn:hover {
+    background-color: #2d2019;
+}
+

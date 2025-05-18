@@ -1,0 +1,43 @@
+.login-container {
+    min-height: 100vh;
+    padding: 24px;
+    background-color: white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.back-button {
+    position: absolute;
+    top: 24px;
+    left: 24px;
+    cursor: pointer;
+}
+
+.login-form {
+    width: 100%;
+    max-width: 400px;
+    margin-top: 20px;
+}
+
+.link-right {
+    text-align: right;
+    margin-top: -16px;
+    margin-bottom: 16px;
+}
+
+.submit-btn {
+    width: 100%;
+    background-color: #3E2C22;
+    border: none;
+    font-weight: bold;
+    border-radius: 10px;
+    height: 45px;
+}
+
+.submit-btn:hover {
+    background-color: #2d2019;
+}

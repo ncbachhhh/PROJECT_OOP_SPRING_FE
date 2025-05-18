@@ -1,0 +1,89 @@
+.welcome-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    gap: 30px;
+}
+
+.welcome-des {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.welcome-des > h2 > span {
+    color: #1290DE;
+}
+
+.welcome-point {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px 0;
+    background-color: #5C9BC2;
+    padding: 10px 30px;
+    border-radius: 10px;
+    width: 90%;
+    gap: 10px;
+}
+
+.welcome-point > p {
+    color: #f0f0f0;
+}
+
+.welcome-menu {
+    display: flex;
+    background-color: #FF9633;
+    padding: 10px;
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    border-radius: 10px;
+}
+
+.welcome-menu-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.welcome-menu-title > p {
+    font-size: 25px;
+    color: #f0f0f0;
+}
+
+.welcome-menu-title > span {
+    font-size: 14px;
+    color: #f0f0f0;
+    background-color: rgba(240, 240, 240, 0.21);
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.welcome-menu > img {
+    height: 130px;
+}
+
+.logout-button {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    background-color: #f44336;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 14px;
+    z-index: 10;
+}
+
+.logout-button:hover {
+    background-color: #d32f2f;
+}
