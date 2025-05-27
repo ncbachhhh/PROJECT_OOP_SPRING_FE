@@ -39,7 +39,7 @@ function WelcomeScreen() {
                             <p>Bạn có {user.point} điểm</p>
                             <img src="/ngoisao.svg" alt="Tích điểm"/>
                         </div>
-                        <div className="welcome-point" onClick={() => navigate('/')}>
+                        <div className="welcome-point" onClick={() => navigate('/order')}>
                             <p>Theo dõi món ăn</p>
                             <img src="/orderview.svg" alt="Tích điểm"/>
                         </div>

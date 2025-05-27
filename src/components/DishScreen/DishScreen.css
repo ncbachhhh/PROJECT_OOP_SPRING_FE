@@ -1,0 +1,53 @@
+.dish-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 16px;
+}
+
+.dish-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgb(0 0 0 / 0.1);
+    transition: box-shadow 0.3s ease;
+    cursor: pointer;
+    display: flex;
+    overflow: hidden;
+}
+
+.dish-card:hover {
+    box-shadow: 0 6px 12px rgb(0 0 0 / 0.15);
+}
+
+.dish-image-dishscreen {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-right: 1px solid #ddd;
+}
+
+.dish-info {
+    padding: 12px 16px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.dish-name {
+    margin: 0 0 8px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #222;
+    line-height: 1.2;
+}
+
+.dish-desc {
+    flex-grow: 1;
+    margin: 0;
+    color: #555;
+    font-size: 0.9rem;
+    line-height: 1.4;
+    white-space: normal;
+    overflow-wrap: break-word;
+}
