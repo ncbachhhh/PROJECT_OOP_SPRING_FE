@@ -145,12 +145,19 @@ const UserList = () => {
 
                     {!editingUser && (
                         <Form.Item
-                            name="password"
                             label="Mật khẩu"
-                            rules={[{required: true}]}
+                            name="password"
+                            rules={[
+                                {required: true, message: 'Vui lòng nhập mật khẩu!'},
+                                {
+                                    pattern: /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[\W_]).{8,}$/,
+                                    message: 'Mật khẩu phải có ít nhất 8 ký tự, gồm chữ hoa, chữ thường, số và ký tự đặc biệt!'
+                                }
+                            ]}
                         >
-                            <Input.Password/>
+                            <Input.Password placeholder="Mật khẩu của bạn" size="large"/>
                         </Form.Item>
+
                     )}
 
                     <Form.Item name="role" label="Vai trò" rules={[{required: true}]}>
